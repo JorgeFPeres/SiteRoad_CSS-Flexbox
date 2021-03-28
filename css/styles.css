@@ -190,6 +190,9 @@ Navbar
   align-items: center;
   padding: 1rem 2rem;
 }
+.nav-logo {
+  cursor: pointer;
+}
 .nav-toggle {
   background: transparent;
   border: transparent;
@@ -614,16 +617,19 @@ ul {
   letter-spacing: var(--spacing);
   transition: var(--transition);
 }
-.footer-link:hover,
-.footer-icon:hover {
+.footer-link:hover {
   color: var(--clr-primary-5);
+}
+
+.footer-icon:hover {
+  color: var(--clr-white);
 }
 
 .footer-icons {
   margin: 1rem 1rem;
 }
 .footer-icon {
-  color: var(--clr-white);
+  color: var(--clr-primary-5);
   font-size: 2.3rem;
   margin: 0 0.5rem;
   transition: var(--transition);
