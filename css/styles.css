@@ -440,6 +440,7 @@ Featured Tours
 }
 .tour-img {
   height: 15rem;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 .tour-date {
@@ -568,6 +569,7 @@ Gallery
 }
 .gallery-img {
   height: 12rem;
+  -o-object-fit: cover;
   object-fit: cover;
   transition: var(--transition);
 }
